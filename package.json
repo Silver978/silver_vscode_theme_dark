@@ -3,6 +3,9 @@
   "displayName": "Silver's Theme Dark",
   "publisher": "silver978",
   "description": "Dark version of the color scheme based on my avatar: silver",
+  "author": {
+    "name": "silver978"
+  },
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
@@ -12,13 +15,32 @@
   "engines": {
     "vscode": "^1.11.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Silver978/silver_vscode_theme_dark"
+  },
+  "bugs": {
+    "url": "https://github.com/Silver978/silver_vscode_theme_dark/issues"
+  },
+  "galleryBanner": {
+    "color": "#77529e",
+    "theme": "dark"
+  },
+  "icon": "images/icon/silver_vscode_theme_dark_icon.png",
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "silver Theme",
+    "Dark Theme",
+    "green",
+    "purple",
+    "yellow"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Generated theme",
+        "label": "Silver's Theme Dark",
         "uiTheme": "vs-dark",
         "path": "./theme.json"
       }
